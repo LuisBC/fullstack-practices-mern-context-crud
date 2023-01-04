@@ -11,8 +11,11 @@ export const HomePage = () => {
       <div className="flex flex-col justify-center items-center">
         <VscEmptyWindow className="w-40 h-40 text-white" />
         <h1 className="text-white text-2xl">No posts found</h1>
-        <Link to="/posts/new" className="m-5">
-          Create Post
+        <Link
+          to="/posts/new"
+          className="m-5 px-3 py-2 bg-indigo-500 hover:bg-indigo-600 text-white"
+        >
+          Create New Post
         </Link>
       </div>
     );
