@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon server --ignore client",
-    "build": "npm install -- prefix client && npm run build --prefix client && rmdir client/node_modules /s /q",
+    "build": "npm install --prefix client && npm run build --prefix client && rmdir client/node_modules /s /q",
     "start": "node server"
   },
   "repository": {
