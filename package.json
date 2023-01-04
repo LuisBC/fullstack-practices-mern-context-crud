@@ -1,0 +1,34 @@
+{
+  "name": "fullstack-practices-mern-context-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server --ignore client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisBC/fullstack-practices-mern-context-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisBC/fullstack-practices-mern-context-crud/issues"
+  },
+  "homepage": "https://github.com/LuisBC/fullstack-practices-mern-context-crud#readme",
+  "dependencies": {
+    "cloudinary": "^1.33.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "fs-extra": "^11.1.0",
+    "http-errors": "^2.0.0",
+    "mongoose": "^6.8.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
